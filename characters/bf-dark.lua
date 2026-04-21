@@ -19,21 +19,21 @@ function onCreatePost()
 end
 
 function getColor(thing)
-    if thing == 'blammed' then
+    if thing == 'blammed-(d)' then
         return 0xffb5ade9
     end
     return 0xff7266c1
 end
 
 function getDistance(thing)
-    if thing == 'blammed' then
+    if thing == 'blammed-(d)' then
         return 12
     end
     return 15
 end
 
 function getAngle(thing)
-    if thing == 'blammed' then
+    if thing == 'blammed-(d)' then
         return 200
     end
     return 135
